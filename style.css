@@ -80,7 +80,7 @@ ul{
     margin-bottom: 30px;
     cursor: pointer;
     user-select: none;
-    appearance: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 li{
