@@ -1,0 +1,135 @@
+:root{
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(217, 12%, 63%);
+    --clr-medium-gray: hsl(216, 12%, 54%);
+    --clr-dark-blue: hsl(213, 19%, 18%);
+    --clr-very-dark-blue: hsl(216, 12%, 8%);
+    --clr-orange: hsl(25, 97%, 53%);
+    --clr-mod-gray: hsl(213, 18%, 32%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-size: 1.067rem;
+    background-color: var(--clr-very-dark-blue);
+    color: var(--clr-light-gray);
+    padding: 0 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    position: relative;
+}
+
+.rating{
+    width: 350px;
+    height: 400px;
+    background-color: var(--clr-dark-blue);
+    border-radius: 25px;
+}
+
+.rating-start{
+    padding: 15px;  
+}
+
+.rating-end{
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-size: 0.875rem; 
+}
+
+.thank{
+    margin-bottom: 50px;
+}
+
+.selected{
+    margin-bottom: 30px;
+    color: var(--clr-orange);
+    font-weight: 400;
+    background-color: #343e47;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.thanks-1{
+    margin-bottom: 20px;
+    font-size: 1.5625rem;
+    color: var(--clr-white);
+    font-weight: 700;
+}
+
+.thanks-2{
+    line-height: 1.5;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+}
+
+li{
+    list-style: none;
+    background-color: #343e47;
+    padding: 15px 20px;
+    border-radius: 50%;
+    color: var(--clr-medium-gray);
+}
+
+.star{
+    margin: 15px 0;
+    background-color: #343e47;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.quest-1{
+    
+    font-size: 1.5625rem;
+    color: var(--clr-white);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.quest-2{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+button{
+    
+    width: 100%;
+    background-color: var(--clr-orange);
+    padding: 15px 0;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    color: var(--clr-orange);
+    background-color: var(--clr-white);
+}
+
+.attribution { font-size: 11px; text-align: center;
+               position: absolute; bottom: 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
